@@ -1,0 +1,177 @@
+:root {
+    --cor-1: #136B53;
+    --cor-2: #43967F;
+    --cor-3: #267F67;
+    --cor-4: #003728;   
+  }
+  .color-primary-0 { color: #136B53 }	/* Main Primary color */
+  .color-primary-1 { color: #43967F }
+  .color-primary-2 { color: #267F67 }
+  .color-primary-3 { color: #03533D }
+  .color-primary-4 { color: #003728 }
+body{
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+    margin: 0px;
+}
+#navegacao{
+    background-color:var(--cor-1);
+    margin: 0px;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+}
+.menu{
+    list-style-type: none;
+    display: inline-block;
+    background-color: var(--cor-1);
+    font-size: 20px;
+    padding-right: 30px;
+    text-shadow: black 1px 1px;
+    
+}
+.linkMenu{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    padding-left: 30px
+    
+}
+.linkMenu:hover{
+    background-color: var(--cor-4);
+    
+}
+h1{
+    background-color: var(--cor-1);
+    margin:0px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-shadow: black 2px 2px;
+}
+h3{
+    background-color: var(--cor-1);
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+    text-shadow: black 1px 1px;
+}
+#foto{
+    background-color: var(--cor-1);
+    text-align: center;
+    padding-bottom: 20px;
+}
+#imagem{
+    border-radius: 100px;
+}
+.descricao{
+    padding-left: 10px;
+    text-indent: 30px;
+    font-size: 18px;
+    width: 800px;
+    margin: auto;
+    padding-top: 20px;
+}
+.lista{
+    font-size: 18px;
+    margin: auto;
+    width: 650px;
+}
+h2,h4{
+   color: var(--cor-3);
+   padding-left: 20px;
+   text-align: center;
+   padding-top: 20px;
+   font-size: 30px;
+}
+#linktree{
+    width: 500px;
+    height: 620px;
+    margin-bottom: 20px;
+    background-color: var(--cor-2);
+    padding: 20px;
+    float: left;
+}
+#cordel{
+    width: 500px;
+    height: 620px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: var(--cor-2);
+    padding: 20px;
+    float: left;
+}
+#projetosI , #projetoII{
+    overflow: hidden;
+    margin: auto;
+    margin:auto;
+    width: 1100px;    
+}
+#JS{
+    width: 500px;
+    height: 620px;
+    margin-bottom: 20px;
+    background-color: var(--cor-2);
+    padding: 20px;
+    float: left;
+}
+
+#Senai{
+    width: 500px;
+    height: 620px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: var(--cor-2);
+    padding: 20px;
+    float: left;
+}
+.linkProjetos{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.linkProjetos:hover{
+    color: var(--cor-4);
+    text-decoration: underline;
+}
+.descricaoProjetos{
+    text-shadow: 1px 1px black;
+    font-size: 18px;
+}
+#formacao{
+    overflow: hidden;
+    text-align: center;
+    margin-left: 450px;    
+}
+#imagemFormacao{
+    float: left;
+}
+#textoformacao{
+    float: left;
+    margin-left: 20px;
+}
+#soft{
+    text-align: center;
+    list-style-type: none;
+    font-size: 18px;
+}
+#contatos{
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer{
+    margin: 0px;
+    background-color: var(--cor-1);
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 1px;
+    font-size: 14px;
+}
+#linkFooter{
+    text-decoration: none;
+    color: white;   
+}
+#linkFooter:hover{
+    color: var(--cor-4);
+}
