@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+:root {
+    --cor-1: #136B53;
+    --cor-2: #43967F;
+    --cor-3: #267F67;
+    --cor-4: #003728;   
+  }
+
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+}
+
+span{
+    background-color: rgba(0, 0, 0, 0.699);
+    display: block;
+    cursor: pointer;
+    color: white;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+
+}
+
+span:hover{
+    background-color: #003728;
+}
+
+menu{
+    background-color: #136B53;
+    display: none;
+    position: sticky;
+    top: 5.9%;
+    width: 100vw;
+}
+
+menu > ul > li {
+    text-align: center;
+    list-style-type: none;
+    display: block;
+    width: 100vw;
+    
+}
+
+menu > ul > li > a.menuitens{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    width: 100vw;
+    font-size: 1em;
+}
+
+menu > ul > li > a.menuitens:hover{
+    background-color: #003728;
+}
+
+header{
+    background-color: #136B53;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+
+img#foto{
+    width: 90%;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+
+h1{
+    text-align: center;
+}
+
+h2#subtitule{
+    font-size: 1em;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    text-indent: 20px;
+    line-height: 25px;
+    text-align: justify;
+    padding: 20px;
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+#produto {
+    text-align: center;   
+}
+
+.descricaoProjetos{
+    text-align: center;
+}
+
+ul{
+    line-height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+
+h2#titule{
+    text-align: center;
+    padding: 10px;
+}
+
+a.linkProjetos{
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+a:hover{
+    color: #003728;
+}
+div{
+    background-color: #136B53;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    
+}
+img{
+    width: 80%;
+}
+
+#contatos{
+    text-align: center;
+    padding-bottom: 10px;
+}
+img#logoscontato{
+    width: 50px;
+    height: 50px;
+}
+
+
+img#unip{
+    width: 100px;
+    height: 115px;
+}
+
+#cv{
+    display: flex;
+    justify-content:flex-start;
+}
+#formacaounip{
+    display: flex;
+    justify-content:flex-start;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+footer{
+    background-color: #136B53;
+    
+}
+
+#linkFooter{
+    text-decoration: none;
+    color: white;
+}
+
+#linkFooter:hover{
+    color: #003728;
+}
+
+#footer{
+    text-align: center;
+}
+
